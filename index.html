@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веселковий Садочок</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo-block">
+                <img src="https://cdn-icons-png.flaticon.com/512/616/616494.png" alt="Логотип" class="logo-img">
+                <span class="logo-text">Веселковий Садочок</span>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="/" onclick="event.preventDefault(); window.location.href='index.html';">Головна</a></li>
+                    <li><a href="clubs.html">Гуртки</a></li>
+                    <li><a href="faq.html">Питання та відповіді</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form action="search.html" method="get" style="display:inline;">
+                    <input type="text" class="search-input" name="q" placeholder="Пошук...">
+                    <button class="search-btn" type="submit">&#128269;</button>
+                </form>
+                <a href="join.html" class="join-btn">Долучитись</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container hero-flex">
+                <div class="hero-content">
+                    <h1>Ласкаво просимо до Веселкового Садочка</h1>
+                    <p>Веселі, творчі заняття з чудовими вихователями для дітей.<br>
+                    Ексклюзивні програми, унікальні ігрові групи та яскраві уроки. Безпечні, надихаючі, вікові програми допомагають дітям розвивати свої творчі та соціальні навички у щасливому середовищі під наглядом досвідчених педагогів.</p>
+                    <a href="join.html" class="hero-cta">Долучитись</a>
+                </div>
+                <div class="hero-images">
+                    <img src="https://img.freepik.com/free-photo/kids-playing-with-toys_23-2148130877.jpg?w=400" alt="Діти" class="hero-img-main">
+                    <img src="https://img.freepik.com/free-photo/children-playing-with-colorful-blocks_23-2148130879.jpg?w=200" alt="Діти 2" class="hero-img-side">
+                </div>
+            </div>
+        </section>
+        <section class="qualities-section">
+            <div class="container">
+                <h2>Ми дбаємо про якісний розвиток вашої дитини</h2>
+                <div class="qualities-grid">
+                    <div class="quality-card">
+                        <div class="quality-icon">🚌</div>
+                        <h3>Трансфер</h3>
+                        <p>Безпечний та комфортний автобус для всіх дітей.</p>
+                        <a href="clubs.html#transfer">Детальніше</a>
+                    </div>
+                    <div class="quality-card">
+                        <div class="quality-icon">⚽</div>
+                        <h3>Спортивні заняття</h3>
+                        <p>Різноманітні спортивні секції та активності.</p>
+                        <a href="clubs.html#sport">Детальніше</a>
+                    </div>
+                    <div class="quality-card">
+                        <div class="quality-icon">🎵</div>
+                        <h3>Музичні гуртки</h3>
+                        <p>Музичні заняття та творчі майстер-класи для дітей.</p>
+                        <a href="clubs.html#music">Детальніше</a>
+                    </div>
+                    <div class="quality-card">
+                        <div class="quality-icon">👩‍🏫</div>
+                        <h3>Кращі вихователі</h3>
+                        <p>Досвідчені, доброзичливі та турботливі педагоги.</p>
+                        <a href="about.html#teachers">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section">
+            <div class="container about-flex">
+                <div class="about-content">
+                    <h2>Особлива турбота про вашу дитину</h2>
+                    <p>Наш дитячий садок забезпечує безпечне, затишне середовище, де діти можуть навчатися, гратися та розвиватися. Ми акцентуємо увагу на розвитку соціальних, емоційних та когнітивних навичок через цікаві та захоплюючі заняття.</p>
+                    <a href="about.html" class="about-cta">Дізнатись більше</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://img.freepik.com/free-photo/group-happy-children_155003-10594.jpg?w=400" alt="Особлива турбота">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Веселковий Садочок &copy; 2024. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>

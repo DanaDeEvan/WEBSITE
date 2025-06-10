@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Питання та відповіді — Веселковий Садочок</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo-block">
+                <img src="https://cdn-icons-png.flaticon.com/512/616/616494.png" alt="Логотип" class="logo-img">
+                <span class="logo-text">Веселковий Садочок</span>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="clubs.html">Гуртки</a></li>
+                    <li><a href="faq.html">Питання та відповіді</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form action="search.html" method="get" style="display:inline;">
+                    <input type="text" class="search-input" name="q" placeholder="Пошук...">
+                    <button class="search-btn" type="submit">&#128269;</button>
+                </form>
+                <a href="join.html" class="join-btn">Долучитись</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="faq-section" style="background:#fff; padding:48px 0;">
+            <div class="container" style="max-width:500px;">
+                <h1>Питання</h1>
+                <form action="#" method="post" style="background:#f7f2fa; border-radius:16px; padding:32px 24px; box-shadow:0 2px 12px rgba(162,89,230,0.07);">
+                    <div style="margin-bottom:18px;">
+                        <label for="name" style="display:block;margin-bottom:6px;">ПІБ</label>
+                        <input type="text" id="name" name="name" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+                    </div>
+                    <div style="margin-bottom:18px;">
+                        <label for="phone" style="display:block;margin-bottom:6px;">Номер телефону</label>
+                        <input type="tel" id="phone" name="phone" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+                    </div>
+                    <div style="margin-bottom:24px;">
+                        <label for="question" style="display:block;margin-bottom:6px;">Ваше запитання</label>
+                        <textarea id="question" name="question" rows="4" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;"></textarea>
+                    </div>
+                    <button type="submit" style="background:#a259e6;color:#fff;font-weight:700;font-size:18px;padding:12px 32px;border-radius:24px;border:none;cursor:pointer;">Відправити</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Веселковий Садочок &copy; 2024. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
